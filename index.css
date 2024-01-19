@@ -1,0 +1,55 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #918d8d;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
+
+header h1 {
+    margin: 0;
+}
+
+section {
+    padding: 2em;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.profile-img {
+    border-radius: 50%;
+    max-width: 200px;
+    margin: 20px auto;
+    display: block;
+}
+
+.about-me {
+    text-align: justify;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.project {
+    flex: 0 0 48%;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #7d7a7a;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
